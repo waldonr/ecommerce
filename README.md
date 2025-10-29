@@ -49,5 +49,9 @@
 
 1. **Клонируйте репозиторий**
    ```bash
-   git clone https://github.com/yourusername/ecommerce.git
+   git clone https://github.com/waldonr/ecommerce.git
    cd ecommerce
+
+2. **Установите зависимости**
+   '''bash
+   pip install -r requirements.txt
