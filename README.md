@@ -53,5 +53,15 @@
    cd ecommerce
 
 2. **Установите зависимости**
-   '''bash
+   ```bash
    pip install -r requirements.txt
+
+3. **Запустите приложение**
+   ```bash
+   uvicorn app.main:app --reload
+   
+4. **Откройте в браузере**
+
+   Документация API: http://localhost:8000/docs
+   
+   Альтернативная документация: http://localhost:8000/redoc
